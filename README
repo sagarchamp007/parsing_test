@@ -1,0 +1,18 @@
+THE OUTPUT output/output.csv IS GENERATED SUCCESSFULLY.
+
+RUN-
+  python pdf_to_csv.py
+
+Requirements-
+  python 3 or above version, linux distribution
+
+Assumptions-
+  1.the tabula directory containing tabula-0.9.2-jar-with-dependencies.jar    needs to be in current main module directory.
+  2.the coordinates for pdf extraction are manually taken from gnu image
+    manuplation program.
+
+to_csv_(inp_path, output_csv_path, tabula_path, coord=(131, 48, 506, 685) method does the job in pdf_to_csv.py 
+
+Output-
+   1. A temp.csv is generated in temp directory using tabula by program.
+   2. Final OUTPUT output.csv is generated in output directory.
