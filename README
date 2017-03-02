@@ -1,6 +1,7 @@
 THE OUTPUT output/output.csv IS GENERATED SUCCESSFULLY.
 
 RUN-
+  run it inside the parsing_test directory.
   python pdf_to_csv.py
 
 Requirements-
@@ -11,7 +12,7 @@ Assumptions-
   2.the coordinates for pdf extraction are manually taken from gnu image
     manuplation program.
 
-to_csv_(inp_path, output_csv_path, tabula_path, coord=(131, 48, 506, 685) method does the job in pdf_to_csv.py 
+to_csv_(inp_path, output_csv_path, tabula_path[, coord]) method does the job in pdf_to_csv.py 
 
 Output-
    1. A temp.csv is generated in temp directory using tabula by program.
