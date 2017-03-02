@@ -33,6 +33,6 @@ def to_csv_(inp_path, output_csv_path, tabula_path, coord=(131, 48, 506, 685)):
 if __name__ == "__main__":
     out_path = os.path.abspath("output")
     output_file_path = to_csv_(
-        '/home/sagar/parsing_test/BalSheet.pdf', out_path,
+        os.path.abspath('BalSheet.pdf'), out_path,
         os.path.abspath('tabula/tabula-0.9.2-jar-with-dependencies.jar'))
     print("Output csv is in path '{}'".format(output_file_path))
